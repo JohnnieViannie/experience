@@ -1,0 +1,85 @@
+.ser{
+  padding: 60px 0px;
+}
+.ser-box{
+  display: inline-block;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px dashed #dfe0e1;
+  padding-top: 40px;
+}
+.ser-box:hover{
+  background: #f2f2f2;
+  cursor: pointer;
+  
+   transition: all 1s;
+  -moz-transition: all 1s; /* Firefox 4 */
+  -webkit-transition: all 1s; /* Safari and Chrome */
+  -o-transition: all 1s; /* Opera */
+}
+.ser-box:hover i{
+  background: #4A89DC;
+  border-radius: 100px;
+  
+  transition: all 1s;
+  -moz-transition: all 1s; /* Firefox 4 */
+  -webkit-transition: all 1s; /* Safari and Chrome */
+  -o-transition: all 1s; /* Opera */
+}
+.icon{
+  padding: 0px;
+  margin-top: 10px;
+  float: left;
+  margin-right: 20px;
+  padding-bottom:10px;
+  width: 150px;
+  
+}
+.icon i{
+  width: 100px;
+  height: 100px;
+  background: #5D9CEC;
+  color: #ffffff;
+  line-height: 70px;
+  text-align: center;
+  font-size: 44px;
+}
+.ser-content{
+
+}
+.ser-content h4{
+  font-size: 35px;
+  font-weight: 900;
+  height: 35px;
+}
+.para{
+  font-size: 18px;
+  text-align: justify;
+  padding: 15px;
+  
+}
+.center{
+  text-align: center ;
+  algn-items: center;
+  padding-top: 10px;
+  margin-right: 10px;
+  
+}
+.h2 {
+  text-align: center;
+  text-transform: none;
+  margin-top: 20px;
+}
+.row h2 {
+  text-align: center;
+}
+
+/* Media query for small devices */
+@media (max-width: 600px) {
+  .ser-content h4{
+  font-size: 25px;
+  font-weight: 900;
+  height: 35px;
+}
+
+}

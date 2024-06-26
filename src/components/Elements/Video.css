@@ -1,0 +1,78 @@
+.video-container {
+  position: relative;
+  width: 100%; 
+  margin-top: 12rem;
+}
+
+.thumbnail {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+
+
+.overlay-content {
+  text-align: center;
+  color: #fff;
+}
+
+.video-container:hover .overlay {
+  display: flex;
+}
+.play-container {
+  position: relative;
+  display: inline-block;
+ 
+  /* Ensure inline-block to contain the absolute positioning */
+}
+.play-icon {
+  width: 50px; /* Adjust size as needed */
+  height: 50px; /* Adjust size as needed */
+  position: absolute;
+  margin-left:-25px;
+  margin-top:30px;
+}
+
+.play-animation {
+  position: relative;
+  transform: translate(-50%, -50%);
+  width: 100px; /* Adjust size as needed */
+  height: 100px; /* Adjust size as needed */
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.3); /* Adjust color and opacity */
+  animation: pulse 2s infinite ease-in-out; /* Adjust animation duration and timing */
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+ .videoz{
+   width:470px;
+   margin: 0 auto;
+ }
+ 
+  
+@media only screen and (max-width: 768px) {
+  .video {
+    display: flex; /* Show on small devices */
+    margin-top: 10px;
+    height: 45%;
+    position: absolute;
+  }
+ .videoz {
+width: 380px;
+margin: 0 auto;
+}
+}
